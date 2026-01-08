@@ -32,5 +32,5 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::delete('account', [AuthController::class, 'deleteAccount']);
 
     // Resource CRUD
-    Route::apiResource('clothes-items', ClothesItemController::class);
+    Route::apiResource('ClothesItems', ClothesItemController::class);
 });

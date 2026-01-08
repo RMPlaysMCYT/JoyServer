@@ -15,8 +15,7 @@ class UserAccount extends Authenticatable
     protected $table = 'users_accounts';
     
     protected $fillable = [
-        'name', 'username', 'email', 'password', 'phone_number', 
-        'role', 'is_suspended', 'suspension_note', 'suspended_until'
+        'name', 'username', 'email', 'password', 'phone_number'
     ];
 
     protected $hidden = [
